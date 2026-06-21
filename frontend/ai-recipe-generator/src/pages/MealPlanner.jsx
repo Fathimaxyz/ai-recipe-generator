@@ -135,7 +135,7 @@ const MealPlanner = () => {
                                 return (
                                     <div
                                         key={dayIndex}
-                                        className="p-3 border-r border-gray-200 last:border-r-0 min-h-[100px] hover:bg-gray-50 transition-colors"
+                                        className="p-3 border-r border-gray-200 last:border-r-0 min-h-25 hover:bg-gray-50 transition-colors"
                                     >
                                         {meal ? (
                                             <div className="relative group">

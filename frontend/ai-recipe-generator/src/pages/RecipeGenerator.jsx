@@ -47,6 +47,7 @@ const RecipeGenerator = () => {
                     if (preferences.default_servings) {
                         setServings(preferences.default_servings);
                     }
+
                     setPreferencesLoaded(true);
                 }
             } catch (error) {
@@ -54,6 +55,7 @@ const RecipeGenerator = () => {
                 setPreferencesLoaded(true);
             }
         };
+        fetchUserPreferences();
     }, []);
 
     const addIngredient = () => {
