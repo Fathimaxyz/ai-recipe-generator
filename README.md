@@ -1,4 +1,4 @@
-# AI-Powered Pantry & Recipe Manager
+# AI-Powered Pantry & Recipe Generator
 
 An intelligent, full-stack pantry management and recipe generation platform built using the PERN stack (PostgreSQL, Express, React, Node.js). This application helps users reduce food waste, manage inventory, and generate personalized meal plans using AI.
 
